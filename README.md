@@ -4,7 +4,7 @@ For brief information about Layer 2, 3 and 4 limited details.
 The "Packet Goggles" reveals basic details of ethernet, IP, and TCP details. The implementation is based on the "pcap" library.
 
 1. Prerequisites
-$ sudo apt update && sudo apt install libpcap-dev
+$ ```sudo apt update && sudo apt install libpcap-dev```
 
 After installation, it can be verified.
 ```
@@ -27,6 +27,6 @@ APT-Sources: http://fi.archive.ubuntu.com/ubuntu focal/main amd64 Packages
 Description: development library for libpcap (transitional package)
  Empty package to facilitate upgrades, can be safely removed.
 ```
-2. git clone packet_goggles
-3. make
-4. sudo ./packet_goggle
+2. ```git clone packet_goggles```
+3. ```make```
+4. ```sudo ./packet_goggle```
